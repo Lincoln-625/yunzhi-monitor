@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320" role="img">
+<title>云知 · AI 资讯监测助手：项目架构</title><desc>前端交互层、后端应用层、采集与模型及数据服务，以及监控处理流程。</desc>
+<rect width="1600" height="1320" fill="#F5F7FB"/>
+<text x="64" y="81.97999999999999" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="43" font-weight="700" fill="#172B4D">云知 · AI 资讯监测助手</text>
+<text x="65" y="131.36" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" fill="#586A81">项目架构  /  从关键词配置到信息分析与分级通知</text>
+<rect x="64" y="175" width="1472" height="178" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<text x="94" y="223.8" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="700" fill="#172B4D">前端交互层</text>
+<text x="340" y="224.36" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" fill="#356AE6">React 19 · TypeScript · Vite · Tailwind CSS</text>
+<rect x="96" y="263" width="332" height="62" rx="12" fill="#EFF4FF" stroke="#E0E8FC" stroke-width="2"/>
+<text x="121" y="302.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#172B4D">资讯仪表盘</text>
+<rect x="454" y="263" width="332" height="62" rx="12" fill="#EFF4FF" stroke="#E0E8FC" stroke-width="2"/>
+<text x="479" y="302.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#172B4D">关键词管理</text>
+<rect x="812" y="263" width="332" height="62" rx="12" fill="#EFF4FF" stroke="#E0E8FC" stroke-width="2"/>
+<text x="837" y="302.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#172B4D">即时搜索</text>
+<rect x="1170" y="263" width="332" height="62" rx="12" fill="#EFF4FF" stroke="#E0E8FC" stroke-width="2"/>
+<text x="1195" y="302.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#172B4D">通知中心</text>
+<polyline points="550,353 550,446" fill="none" stroke="#356AE6" stroke-width="3"/>
+<polygon points="550,446 543.7674679981453,434.5914266954252 556.2325320018547,434.5914266954251" fill="#356AE6"/>
+<text x="260" y="404.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#356AE6">HTTP / REST API</text>
+<polyline points="1030,446 1030,353" fill="none" stroke="#138A82" stroke-width="3"/>
+<polygon points="1030,353 1036.2325320018547,364.4085733045749 1023.7674679981453,364.4085733045748" fill="#138A82"/>
+<text x="1060" y="404.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#138A82">Socket.io 事件推送</text>
+<rect x="64" y="446" width="1472" height="253" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<text x="94" y="497.8" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="700" fill="#172B4D">后端应用层</text>
+<text x="340" y="497.36" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400" fill="#356AE6">Node.js · Express 5 · TypeScript</text>
+<rect x="96" y="536" width="438" height="132" rx="12" fill="#F7F9FD" stroke="#E4EAF3" stroke-width="2"/>
+<text x="118" y="579.22" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" fill="#172B4D">业务接口</text>
+<text x="118" y="626.92" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#586A81">关键词 / 资讯 / 通知 / 设置</text>
+<rect x="581" y="536" width="438" height="132" rx="12" fill="#F7F9FD" stroke="#E4EAF3" stroke-width="2"/>
+<text x="603" y="579.22" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" fill="#172B4D">监控任务</text>
+<text x="603" y="626.92" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#586A81">node-cron 每 30 分钟 / 手动触发</text>
+<rect x="1066" y="536" width="438" height="132" rx="12" fill="#F7F9FD" stroke="#E4EAF3" stroke-width="2"/>
+<text x="1088" y="579.22" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700" fill="#172B4D">结果与通知</text>
+<text x="1088" y="626.92" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#586A81">持久化 / 订阅事件 / 邮件触发</text>
+<polyline points="800,699 800,743" fill="none" stroke="#93A4BE" stroke-width="3"/>
+<polyline points="237,743 1365,743" fill="none" stroke="#93A4BE" stroke-width="3"/>
+<polyline points="236,743 236,786" fill="none" stroke="#93A4BE" stroke-width="3"/>
+<polygon points="236,786 229.76746799814535,774.5914266954252 242.23253200185465,774.5914266954252" fill="#93A4BE"/>
+<polyline points="612,743 612,786" fill="none" stroke="#93A4BE" stroke-width="3"/>
+<polygon points="612,786 605.7674679981453,774.5914266954252 618.2325320018547,774.5914266954252" fill="#93A4BE"/>
+<polyline points="988,743 988,786" fill="none" stroke="#93A4BE" stroke-width="3"/>
+<polygon points="988,786 981.7674679981453,774.5914266954252 994.2325320018547,774.5914266954252" fill="#93A4BE"/>
+<polyline points="1364,743 1364,786" fill="none" stroke="#93A4BE" stroke-width="3"/>
+<polygon points="1364,786 1357.7674679981453,774.5914266954252 1370.2325320018547,774.5914266954252" fill="#93A4BE"/>
+<rect x="64" y="786" width="344" height="224" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<text x="86" y="835.08" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" fill="#356AE6">多源采集</text>
+<text x="86" y="882.92" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#172B4D">Axios · Cheerio · API</text>
+<text x="86" y="940.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">Bing / 搜狗 / Hacker News</text>
+<text x="86" y="977.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">B站 / 微博 / Twitter/X</text>
+<rect x="440" y="786" width="344" height="224" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<text x="462" y="835.08" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" fill="#7856BF">AI 模型服务</text>
+<text x="462" y="882.92" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#172B4D">OpenRouter → DeepSeek</text>
+<text x="462" y="940.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">关键词扩展 / 内容预匹配</text>
+<text x="462" y="977.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">相关性 / 重要性 / 摘要</text>
+<rect x="816" y="786" width="344" height="224" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<text x="838" y="835.08" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" fill="#138A82">数据持久化</text>
+<text x="838" y="882.92" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#172B4D">Prisma → SQLite</text>
+<text x="838" y="940.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">Keyword / Hotspot</text>
+<text x="838" y="977.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">Notification / Setting</text>
+<rect x="1192" y="786" width="344" height="224" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<text x="1214" y="835.08" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" fill="#BD7830">邮件服务</text>
+<text x="1214" y="882.92" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400" fill="#172B4D">Nodemailer → SMTP</text>
+<text x="1214" y="940.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">high / urgent 级别触发</text>
+<text x="1214" y="977.06" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" font-weight="400" fill="#586A81">发送至配置的收件邮箱</text>
+<rect x="64" y="1057" width="1472" height="192" rx="18" fill="#EDF3FD" stroke="#DDE6F8" stroke-width="2"/>
+<text x="94" y="1107.08" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700" fill="#172B4D">监控处理流程</text>
+<rect x="96" y="1144" width="248" height="66" rx="12" fill="#FFFFFF" stroke="#DAE3F3" stroke-width="2"/>
+<text x="114" y="1184.64" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#172B4D">激活关键词</text>
+<polyline points="348,1177 376,1177" fill="none" stroke="#356AE6" stroke-width="3"/>
+<polygon points="376,1177 364.5914266954251,1183.2325320018547 364.5914266954251,1170.7674679981453" fill="#356AE6"/>
+<rect x="384" y="1144" width="248" height="66" rx="12" fill="#FFFFFF" stroke="#DAE3F3" stroke-width="2"/>
+<text x="402" y="1184.64" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#172B4D">多源采集</text>
+<polyline points="636,1177 664,1177" fill="none" stroke="#356AE6" stroke-width="3"/>
+<polygon points="664,1177 652.5914266954252,1183.2325320018547 652.5914266954252,1170.7674679981453" fill="#356AE6"/>
+<rect x="672" y="1144" width="248" height="66" rx="12" fill="#FFFFFF" stroke="#DAE3F3" stroke-width="2"/>
+<text x="690" y="1184.64" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#172B4D">去重与时效过滤</text>
+<polyline points="924,1177 952,1177" fill="none" stroke="#356AE6" stroke-width="3"/>
+<polygon points="952,1177 940.5914266954252,1183.2325320018547 940.5914266954252,1170.7674679981453" fill="#356AE6"/>
+<rect x="960" y="1144" width="248" height="66" rx="12" fill="#FFFFFF" stroke="#DAE3F3" stroke-width="2"/>
+<text x="978" y="1184.64" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#172B4D">AI 分析筛选</text>
+<polyline points="1212,1177 1240,1177" fill="none" stroke="#356AE6" stroke-width="3"/>
+<polygon points="1240,1177 1228.591426695425,1183.2325320018547 1228.591426695425,1170.7674679981453" fill="#356AE6"/>
+<rect x="1248" y="1144" width="248" height="66" rx="12" fill="#FFFFFF" stroke="#DAE3F3" stroke-width="2"/>
+<text x="1266" y="1184.64" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400" fill="#172B4D">保存与通知</text>
+<text x="66" y="1292.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#586A81">独立扩展：Agent Skills + Python 脚本，可单独执行检索与报告生成。</text>
+</svg>

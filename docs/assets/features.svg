@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1030" viewBox="0 0 1600 1030" role="img">
+<title>云知 · AI 资讯监测助手：功能模块</title><desc>关键词管理、多源信息采集、AI 分析、资讯仪表盘、即时搜索、分级通知六个功能模块。</desc>
+<rect width="1600" height="1030" fill="#F5F7FB"/>
+<text x="64" y="78.53999999999999" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" font-weight="700" fill="#172B4D">围绕关键词，持续发现值得关注的信息</text>
+<text x="64" y="127.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#586A81">云知 · AI 资讯监测助手  /  功能模块</text>
+<rect x="64" y="178" width="464" height="327" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<rect x="88" y="203" width="55" height="45" rx="10" fill="#EDF3FF" stroke="#EDF3FF" stroke-width="2"/>
+<text x="99" y="231.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="700" fill="#356AE6">01</text>
+<text x="159" y="233.94" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#172B4D">关键词管理</text>
+<text x="90" y="295.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#586A81">定义你的关注主题</text>
+<text x="91" y="362.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 新增关键词与分类</text>
+<text x="91" y="405.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 激活、暂停与删除</text>
+<text x="91" y="448.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 手动触发监控检查</text>
+<rect x="568" y="178" width="464" height="327" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<rect x="592" y="203" width="55" height="45" rx="10" fill="#EDF3FF" stroke="#EDF3FF" stroke-width="2"/>
+<text x="603" y="231.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="700" fill="#356AE6">02</text>
+<text x="663" y="233.94" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#172B4D">多源信息采集</text>
+<text x="594" y="295.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#586A81">汇集不同平台的信息</text>
+<text x="595" y="362.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 六类来源并行采集</text>
+<text x="595" y="405.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· URL 去重与时效过滤</text>
+<text x="595" y="448.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 保留来源和原文链接</text>
+<rect x="1072" y="178" width="464" height="327" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<rect x="1096" y="203" width="55" height="45" rx="10" fill="#EDF3FF" stroke="#EDF3FF" stroke-width="2"/>
+<text x="1107" y="231.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="700" fill="#356AE6">03</text>
+<text x="1167" y="233.94" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#172B4D">AI 内容分析</text>
+<text x="1098" y="295.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#586A81">辅助判断内容与主题的关系</text>
+<text x="1099" y="362.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 关键词扩展与预匹配</text>
+<text x="1099" y="405.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 相关性评分与分析理由</text>
+<text x="1099" y="448.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 四级重要性与内容摘要</text>
+<rect x="64" y="539" width="464" height="327" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<rect x="88" y="564" width="55" height="45" rx="10" fill="#EDF3FF" stroke="#EDF3FF" stroke-width="2"/>
+<text x="99" y="592.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="700" fill="#356AE6">04</text>
+<text x="159" y="594.94" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#172B4D">资讯仪表盘</text>
+<text x="90" y="656.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#586A81">按需要组织与查看结果</text>
+<text x="91" y="723.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 来源、关键词、时间筛选</text>
+<text x="91" y="766.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 热度、相关性等多维排序</text>
+<text x="91" y="809.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 概览统计与内容详情</text>
+<rect x="568" y="539" width="464" height="327" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<rect x="592" y="564" width="55" height="45" rx="10" fill="#EDF3FF" stroke="#EDF3FF" stroke-width="2"/>
+<text x="603" y="592.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="700" fill="#356AE6">05</text>
+<text x="663" y="594.94" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#172B4D">即时搜索</text>
+<text x="594" y="656.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#586A81">按需发起一次信息检索</text>
+<text x="595" y="723.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 输入临时查询关键词</text>
+<text x="595" y="766.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· Twitter/X 与 Bing 搜索</text>
+<text x="595" y="809.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 返回结果附带 AI 分析</text>
+<rect x="1072" y="539" width="464" height="327" rx="18" fill="#FFFFFF" stroke="#DFE6F0" stroke-width="2"/>
+<rect x="1096" y="564" width="55" height="45" rx="10" fill="#EDF3FF" stroke="#EDF3FF" stroke-width="2"/>
+<text x="1107" y="592.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="700" fill="#356AE6">06</text>
+<text x="1167" y="594.94" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700" fill="#172B4D">分级通知</text>
+<text x="1098" y="656.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#586A81">及时关注新结果与重点信息</text>
+<text x="1099" y="723.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· Socket.io 推送新结果</text>
+<text x="1099" y="766.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 通知已读与未读管理</text>
+<text x="1099" y="809.78" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400" fill="#172B4D">· 重要内容发送邮件提醒</text>
+<rect x="64" y="931" width="1472" height="59" rx="12" fill="#EAF5F2" stroke="#DBEEE9" stroke-width="2"/>
+<text x="91" y="970.5" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400" fill="#138A82">适用场景：秋招资讯与职位发布 / AI 产品更新 / 技术动态 / 品牌与行业观察</text>
+</svg>
